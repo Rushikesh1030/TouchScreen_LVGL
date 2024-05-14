@@ -1,11 +1,16 @@
-# Arduino project for SquareLine Studio with TFT_eSPI
+ESP32 Touchscreen Display Project
+Overview
+This project utilizes an ESP32 microcontroller along with a touchscreen display to showcase various system attributes. The touchscreen interface allows users to interact with the system and view real-time data such as voltage, current, power, temperature, Amp-Hour, and Watt-Hour. A graphical user interface (GUI) library is employed to create a beautiful and intuitive interface for the display. The ESP32 communicates with the peripherals and sensors to gather data and dynamically update the display accordingly.
 
-## Get started
-
-1. Open the `.ino` file in Arduino
-2. Go to File/Preferences and set Sketchbook location to the path of your UI project (where this README is located)
-3. Go to `libraries/TFT_eSPI` and open `User_Setup.h` or `User_Setup_Select.h` with a text editor to configure pins for your display.
-4. Select your board (install if needed)
-5. Build the project
-
-Note that this project doesn't contain touch pad driver. You can use an other Arudino library for your touchpad controller. 
+Features
+Touchscreen Display: Utilizes an interactive touchscreen interface to display and navigate through different system attributes.
+Real-time Monitoring: Displays real-time data including voltage, current, power, temperature, Amp-Hour, and Watt-Hour.
+GUI Library: Incorporates a GUI library to create a visually appealing and intuitive interface for the display.
+ESP32 Microcontroller: Controls the operation of the touchscreen display and communicates with peripherals and sensors.
+Expandability: The project can be expanded to include additional sensors or functionality as required.
+Components Used
+ESP32 Microcontroller
+Touchscreen Display (ILI9341 ,Touch-XPT2046 touch screen driver)
+Sensors for voltage, current, temperature, etc. (Specify models)
+Peripherals for communication (ESP32 in build Wi-fi)
+LVGL library (for creating graphical interface)
