@@ -15,3 +15,9 @@ Touchscreen Display (ILI9341, Touch Driver:-XPT2046)
 Sensors for voltage, current, temperature
 Peripherals for communication (ESP32 in build Bluetooth)
 LVGL(Light Vesatile Graphics Library)
+
+![Display](https://github.com/Rushikesh1030/TouchScreen_LVGL/assets/169800187/4ee964fc-37f9-4361-b34d-3512b3c78b8a)
+
+
+https://github.com/Rushikesh1030/TouchScreen_LVGL/assets/169800187/438a37b5-9cf7-4496-aa57-1e328859411d
+
